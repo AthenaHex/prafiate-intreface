@@ -1,0 +1,63 @@
+
+
+
+button{
+    width: 120px;
+    height: 27px;
+    cursor: pointer;
+}
+li{
+    cursor: pointer;
+}
+a{
+    color: aqua;
+    text-decoration: none;
+}
+#open-button{
+    background-color: red;
+    border: 3px solid green;
+}
+#close-button{
+    background-color: green;
+    border: 3px solid red;
+}
+
+#burger-menu-open-button{
+    position: absolute;
+    top: 200px;
+}
+#burger-menu{
+    position: absolute;
+    bottom: 200px;
+    background-color: rgba(255, 255, 0, 0.1);
+}
+
+.closeG{
+    visibility: collapse;
+    left: -200px;
+    transition: 2s;
+}
+.openG{
+    visibility: visible;
+    left: 0;
+    transition: 2s;
+}
+
+.closeD{
+    transform: rotate(0);
+    visibility: collapse;
+    right: -730px;
+    transition: 2s;
+}
+.openD{
+    transform: rotate(25deg);
+    visibility: visible;
+    right: -50px;
+    transition: 2s;
+}
+
+
+
+
+
+

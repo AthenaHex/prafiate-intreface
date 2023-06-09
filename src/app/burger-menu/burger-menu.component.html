@@ -1,0 +1,24 @@
+
+
+<div id="burger-menu-open-button" [ngClass]="burgerMenuIsOpen? 'closeG' : 'openG'">
+    <button id="open-button"  (click)="openBurgerMenu()">ouvrir le menu déroulant</button>
+</div>
+
+<div id="burger-menu" [ngClass]="burgerMenuIsOpen? 'openD' : 'closeD'">
+    <button id="close-button" (click)="closeBurgerMenu()">close</button>
+    <ul>
+        <li><a href="/home">Boutton pour revenir au menu principale</a></li>
+        <li><a href="#">Boutton sur lequel il faut cliquer pour pouvoir obtenir les informations du site que vous êtes en train de visiter</a></li>
+        <li><a href="/form-page">A remplir</a></li>
+        <li><a href="#">TLéCh@rgé1virus </a></li>
+    </ul>
+</div>
+
+
+
+
+
+
+
+
+

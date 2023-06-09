@@ -1,0 +1,31 @@
+
+
+
+
+
+
+
+<form action="">
+    <input type="text" [(ngModel)]="defaultName" [defaultValue]="defaultName">
+    <label for="">Nom</label>
+
+    <input type="text" [(ngModel)]="defaultFirstName" [defaultValue]="defaultFirstName">
+    <label for="">Prénom</label>
+
+    <input type="range" #ranger [(ngModel)]="age" [defaultValue]="90" (input)="setAge(ranger.valueAsNumber)">
+    <label for="" max="150" min="0">Vous avez {{age}} an(s)</label>
+
+    <input type="text">
+    <label for=""></label>
+
+
+
+    <button class="custom-btn btn-12">
+        <span><a href="/home">Nan, quitter !</a></span>
+        <span>Valider ?</span>
+    </button>
+</form>
+
+
+
+
